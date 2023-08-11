@@ -52,6 +52,10 @@ Here we go, We can able to access the URL. Make ensure your EC2 security group a
 
 For ALB and CLB, the Source/destination check is true. For NLB and NAT gateway, the option is false.
 
+**Finally Amazon brings Security Group option to the Network Load balancer**
+
+https://aws.amazon.com/about-aws/whats-new/2023/08/network-load-balancer-supports-security-groups
+
 **Step -4: Cleanup the resources**
 
 To make ensure Network load balancer, EC2 instances and Target group should be removed from account.
